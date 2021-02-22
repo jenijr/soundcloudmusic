@@ -7,7 +7,10 @@ $(document).ready(function () {
       e.preventDefault();
       sound.start();
     });
-    
+    $('#pause').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+      });
     $('#stop').click(function (e) {
       e.preventDefault();
       sound.stop();
@@ -18,7 +21,10 @@ $(document).ready(function () {
       e.preventDefault();
       sound.start();
     });
-   
+   $('#abc').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+      });
     $('#ab').click(function (e) {
       e.preventDefault();
       sound.stop();
@@ -29,7 +35,10 @@ $(document).ready(function () {
       e.preventDefault();
       sound.start();
     });
-    
+    $('#bcd').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+      });
     $('#bc').click(function (e) {
       e.preventDefault();
       sound.stop();
@@ -40,7 +49,10 @@ $(document).ready(function () {
       e.preventDefault();
       sound.start();
     });
-    
+    $('#cde').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+      });
     $('#cd').click(function (e) {
       e.preventDefault();
       sound.stop();
@@ -51,7 +63,10 @@ $(document).ready(function () {
       e.preventDefault();
       sound.start();
     });
-   
+   $('#def').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+      });
     $('#de').click(function (e) {
       e.preventDefault();
       sound.stop();
@@ -62,7 +77,10 @@ $(document).ready(function () {
       e.preventDefault();
       sound.start();
     });
-    
+    $('#efg').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+      });
     $('#ef').click(function (e) {
       e.preventDefault();
       sound.stop();
@@ -73,7 +91,10 @@ $(document).ready(function () {
       e.preventDefault();
       sound.start();
     });
-   
+   $('#fgh').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+      });
     $('#fg').click(function (e) {
       e.preventDefault();
       sound.stop();
