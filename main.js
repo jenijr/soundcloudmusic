@@ -87,6 +87,7 @@ $(document).ready(function () {
     $('#ghi').click(function (e) {
       e.preventDefault();
       sound.pause();
+      });
     $('#gh').click(function (e) {
       e.preventDefault();
       sound.stop();
@@ -100,6 +101,7 @@ $(document).ready(function () {
     $('#hij').click(function (e) {
       e.preventDefault();
       sound.pause();
+      });
     $('#hi').click(function (e) {
       e.preventDefault();
       sound.stop();
