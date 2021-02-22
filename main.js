@@ -7,6 +7,10 @@ $(document).ready(function () {
       e.preventDefault();
       sound.start();
     });
+     $('#pause').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+    });
     $('#stop').click(function (e) {
       e.preventDefault();
       sound.stop();
