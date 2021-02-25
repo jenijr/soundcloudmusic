@@ -10,120 +10,171 @@ $(document).ready(function () {
     $('#pause').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
+    });
     $('#stop').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
   });
-  SC.stream('/tracks/34304618', function (sound) {
+
+  SC.stream('/tracks/79623365', function (sound) {
     $('#aa').click(function (e) {
       e.preventDefault();
       sound.start();
     });
-   $('#abc').click(function (e) {
+    $('#ab').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
-    $('#ab').click(function (e) {
+    });
+    $('#ac').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
   });
-  SC.stream('/tracks/79623365', function (sound) {
+
+  SC.stream('/tracks/34304618', function (sound) {
     $('#bb').click(function (e) {
       e.preventDefault();
       sound.start();
     });
-    $('#bcd').click(function (e) {
+    $('#bc').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
-    $('#bc').click(function (e) {
+    });
+    $('#bd').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
   });
+  
   SC.stream('/tracks/517722948', function (sound) {
     $('#cc').click(function (e) {
       e.preventDefault();
       sound.start();
     });
-    $('#cde').click(function (e) {
+    $('#cd').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
-    $('#cd').click(function (e) {
+    });
+    $('#ce').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
   });
-  SC.stream('/tracks/498231915', function (sound) {
+
+  SC.stream('/tracks/345946410', function (sound) {
     $('#dd').click(function (e) {
       e.preventDefault();
       sound.start();
     });
-   $('#def').click(function (e) {
+    $('#de').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
-    $('#de').click(function (e) {
+    });
+    $('#df').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
   });
-  SC.stream('/tracks/345946410', function (sound) {
+
+  SC.stream('/tracks/498231915', function (sound) {
     $('#ee').click(function (e) {
       e.preventDefault();
       sound.start();
     });
-    $('#efg').click(function (e) {
+    $('#ef').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
-    $('#ef').click(function (e) {
+    });
+    $('#eg').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
   });
-  SC.stream('/tracks/28463385', function (sound) {
+
+  SC.stream('/tracks/38869762', function (sound) {
     $('#ff').click(function (e) {
       e.preventDefault();
       sound.start();
     });
-   $('#fgh').click(function (e) {
+    $('#fg').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
-    $('#fg').click(function (e) {
+    });
+    $('#fh').click(function (e) {
+      e.preventDefault();
+      sound.stop();
+    });
+  });
+  
+  SC.stream('/tracks/28463385', function (sound) {
+    $('#gg').click(function (e) {
+      e.preventDefault();
+      sound.start();
+    });
+    $('#gh').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+    });
+    $('#gi').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
   });
   SC.stream('/tracks/925518151', function (sound) {
-    $('#gg').click(function (e) {
+    $('#hh').click(function (e) {
       e.preventDefault();
       sound.start();
     });
-    $('#ghi').click(function (e) {
+    $('#hi').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
-    $('#gh').click(function (e) {
+    });
+    $('#hj').click(function (e) {
+      e.preventDefault();
+      sound.stop();
+    });
+  });
+
+  SC.stream('/tracks/16615012', function (sound) {
+    $('#ii').click(function (e) {
+      e.preventDefault();
+      sound.start();
+    });
+    $('#ij').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+    });
+    $('#ik').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
   });
   SC.stream('/tracks/173826641', function (sound) {
-    $('#hh').click(function (e) {
+    $('#jj').click(function (e) {
       e.preventDefault();
       sound.start();
     });
-    $('#hij').click(function (e) {
+    $('#jk').click(function (e) {
       e.preventDefault();
       sound.pause();
-      });
-    $('#hi').click(function (e) {
+    });
+    $('#jl').click(function (e) {
+      e.preventDefault();
+      sound.stop();
+    });
+  });
+
+  SC.stream('/tracks/190737647', function (sound) {
+    $('#kk').click(function (e) {
+      e.preventDefault();
+      sound.start();
+    });
+    $('#kl').click(function (e) {
+      e.preventDefault();
+      sound.pause();
+    });
+    $('#km').click(function (e) {
       e.preventDefault();
       sound.stop();
     });
@@ -143,3 +194,6 @@ $(document).ready(function () {
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/925518151&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rupesh-516854727" title="roops" target="_blank" style="color: #cccccc; text-decoration: none;">roops</a> · <a href="https://soundcloud.com/rupesh-516854727/oh-maname-masstamilan-com" title="Oh Maname - MassTamilan.com" target="_blank" style="color: #cccccc; text-decoration: none;">Oh Maname - MassTamilan.com</a></div>
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/173826641&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jason-bourne-37" title="Jason bourne 36" target="_blank" style="color: #cccccc; text-decoration: none;">Jason bourne 36</a> · <a href="https://soundcloud.com/jason-bourne-37/uthama-puthiran-kan-irandil" title="Uthama Puthiran - Kan Irandil" target="_blank" style="color: #cccccc; text-decoration: none;">Uthama Puthiran - Kan Irandil</a></div>
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34304618&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/shan-12" title="Shan - Reloaded" target="_blank" style="color: #cccccc; text-decoration: none;">Shan - Reloaded</a> · <a href="https://soundcloud.com/shan-12/dhimu-dhimu-engeyum-kathal" title="Dhimu Dhimu  - Engeyum kathal" target="_blank" style="color: #cccccc; text-decoration: none;">Dhimu Dhimu  - Engeyum kathal</a></div>
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/38869762&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/raifa-basheer" title="Raifa Basheer" target="_blank" style="color: #cccccc; text-decoration: none;">Raifa Basheer</a> · <a href="https://soundcloud.com/raifa-basheer/akkam-pakkam-vmusiq-com" title="Akkam Pakkam-VmusiQ.Com" target="_blank" style="color: #cccccc; text-decoration: none;">Akkam Pakkam-VmusiQ.Com</a></div>
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/16615012&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/deiva-thirumagal" title="Deiva Thirumagal" target="_blank" style="color: #cccccc; text-decoration: none;">Deiva Thirumagal</a> · <a href="https://soundcloud.com/deiva-thirumagal/vizhigalil-oru-vaanavil" title="Vizhigalil Oru Vaanavil" target="_blank" style="color: #cccccc; text-decoration: none;">Vizhigalil Oru Vaanavil</a></div>
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/190737647&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/aparna-shibu" title="Aparna Shibu" target="_blank" style="color: #cccccc; text-decoration: none;">Aparna Shibu</a> · <a href="https://soundcloud.com/aparna-shibu/idhayathai-yedho-ondru-cover-yennai-arindhaal" title="Idhayathai Yedho Ondru (Cover) ~ Yennai Arindhaal" target="_blank" style="color: #cccccc; text-decoration: none;">Idhayathai Yedho Ondru (Cover) ~ Yennai Arindhaal</a></div>
